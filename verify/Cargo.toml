@@ -1,0 +1,24 @@
+[package]
+name = "verify"
+version = "2.1.7"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12.1"
+cfg = { version = "0.1.0", path = "../cfg" }
+clap = "2.33.0"
+ctrlc = "3.4.2"
+exitcode = "1.1.2"
+itertools = "0.12.0"
+num-bigint-dig = "0.6.0"
+parser = { git = "https://github.com/iden3/circom.git", version = "2.1.7" }
+program_structure = { git = "https://github.com/iden3/circom.git", version = "2.1.7" }
+smtlib-lowlevel = { version = "0.1.8", features = ["cvc5", "async"] }
+static_analysis = { version = "0.1.0", path = "../static_analysis" }
+thiserror = "1.0.61"
+type_analysis = { git = "https://github.com/iden3/circom.git", version = "2.1.7" }
+vc_gen = { version = "0.1.0", path = "../vc_gen" }
+serde_json = "1.0.117"
+num-traits = "0.2.19"

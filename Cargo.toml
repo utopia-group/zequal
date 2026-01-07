@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "verify",
+    "static_analysis",
+    "cfg",
+    "vc_gen",
+    "analysis_utils"]

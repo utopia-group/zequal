@@ -1,0 +1,16 @@
+[package]
+name = "cfg"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.12.1"
+num-bigint-dig = { version = "0.6.0" }
+program_structure = { git = "https://github.com/iden3/circom.git", version = "2.1.8" }
+typed-arena = "2.0.2"
+thiserror = "1.0.61"
+serde_json = "1.0.117"
+serde = { version = "1.0.202", features = ["derive"] }
+num-traits = "0.2.19"

@@ -1,0 +1,15 @@
+[package]
+name = "vc_gen"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfg = { version = "0.1.0", path = "../cfg" }
+num-bigint-dig = { version = "0.6.0" }
+smtlib-lowlevel = { version = "0.1.8", features = ["cvc5", "async", "z3"] }
+thiserror = { version = "1.0.56", features = [] }
+num-traits = "0.2.18"
+static_analysis = { version = "0.1.0", path = "../static_analysis" }
+itertools = "0.12.1"

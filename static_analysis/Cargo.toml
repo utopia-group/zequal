@@ -1,0 +1,13 @@
+[package]
+name = "static_analysis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfg = { version = "0.1.0", path = "../cfg" }
+num-bigint-dig = "0.6.0"
+num-traits = "0.2.19"
+itertools = "0.12.1"
+thiserror = "1.0.64"
