@@ -1,4 +1,4 @@
-This repository holds the implementation of the zequal tool discussed in the CAV 2025 publication. It verifies whether circom 2.1.8 circuits meet the formal definition of consistency which informally states that the constraints encode the same computation as the witness generator.
+This repository holds the implementation of the zequal tool discussed in the [CAV 2025 publication](https://veridise.com/wp-content/uploads/2025/08/zequal.pdf). It verifies whether circom 2.1.8 circuits meet the formal definition of consistency which informally states that the constraints encode the same computation as the witness generator.
 
 # Dependencies
 Build dependencies:
